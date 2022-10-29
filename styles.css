@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+}
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.left-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-container {
+	width: 600px;
+	height: 600px;
+}
