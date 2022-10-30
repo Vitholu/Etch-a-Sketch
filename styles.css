@@ -25,9 +25,28 @@
 }
 
 .right-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	width: 600px;
 	height: 600px;
 	border: 1px solid black;
+}
+
+#g16 {
+	width: 37.5px;
+	height: 37.5px;
+	flex-wrap: wrap;
+}
+#g32 {
+	width: 18.75px;
+	height: 18.75px;
+	flex-wrap: wrap;
+}
+#g64 {
+	width: 9.375px;
+	height: 9.375px;
+	flex-wrap: wrap;
 }
 
 button {
